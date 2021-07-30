@@ -55,8 +55,7 @@ body:
         - Accelerator Module
         - Enviro Board
         - Coral Camera
-      - type: dropdown
-    
+  - type: dropdown
     id: External-Hardware
     attributes:
       label: Any other devices you are using?
