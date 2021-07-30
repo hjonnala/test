@@ -64,7 +64,7 @@ body:
         - Raspberrypi 3
         - Rapsberrypi 4
         - other
-    - type: dropdown
+  - type: dropdown
     id: version
     attributes:
       label: Please select the python version applicable
