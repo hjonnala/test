@@ -27,6 +27,19 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: issue-type
+    attributes:
+      label: What type of issue you are facing?
+      multiple: true
+      options:
+        - bug
+        - build/install
+        - performance
+        - support
+        - docs-feature
+        - docs-bug
+        - others
+  - type: dropdown
     id: Operating-System
     attributes:
       label: What operating system you are working on?
