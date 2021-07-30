@@ -9,14 +9,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out issue!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+#   - type: input
+#     id: contact
+#     attributes:
+#       label: Contact Details
+#       description: How can we get in touch with you if we need more info?
+#       placeholder: ex. email@example.com
+#     validations:
+#       required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -29,23 +29,27 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
+      label: python
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 3.5
+        - 3.6
+        - 3.7
+        - 3.8
+        - 3.9
     validations:
-      required: true
+      required: False
   - type: dropdown
-    id: browsers
+    id: Operating System
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What operating system you are working on?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Windows
+        - Mendel OS
+        - Linux
+        - Ubuntu
+        - Mac OS
   - type: textarea
     id: logs
     attributes:
