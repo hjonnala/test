@@ -40,7 +40,7 @@ body:
     validations:
       required: False
   - type: dropdown
-    id: Operating System
+    id: Operating-System
     attributes:
       label: What operating system you are working on?
       multiple: true
@@ -50,6 +50,23 @@ body:
         - Linux
         - Ubuntu
         - Mac OS
+  - type: dropdown
+    id: Hardware
+    attributes:
+      label: What coral device you are using?
+      multiple: true
+      options:
+        - Dev Board
+        - USB Accelerator
+        - Dev Board Mini
+        - Mini PCIe
+        - M.2 Accelerator A+E
+        - M.2 Accelerator B+M
+        - M.2 Accelerator with dual Edge TPU
+        - SoM
+        - Accelerator Module
+        - Enviro Board
+        - Coral Camera
   - type: textarea
     id: logs
     attributes:
