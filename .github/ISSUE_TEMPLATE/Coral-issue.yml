@@ -1,6 +1,6 @@
 name: Coral Issue Template
 description: Use this template to create a issue
-title: ""
+title: " "
 labels: [bug, triage]
 assignees:
   - hjonnala
