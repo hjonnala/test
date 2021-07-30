@@ -27,19 +27,6 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
-    attributes:
-      label: python
-      description: What version of our software are you running?
-      options:
-        - 3.5
-        - 3.6
-        - 3.7
-        - 3.8
-        - 3.9
-    validations:
-      required: False
-  - type: dropdown
     id: Operating-System
     attributes:
       label: What operating system you are working on?
@@ -50,6 +37,7 @@ body:
         - Linux
         - Ubuntu
         - Mac OS
+        - Other
   - type: dropdown
     id: Hardware
     attributes:
@@ -67,6 +55,29 @@ body:
         - Accelerator Module
         - Enviro Board
         - Coral Camera
+      - type: dropdown
+    
+    id: External-Hardware
+    attributes:
+      label: Any other devices you are using?
+      multiple: true
+      options:
+        - Raspberrypi 3
+        - Rapsberrypi 4
+        - other
+    - type: dropdown
+    id: version
+    attributes:
+      label: Please select the python version applicable
+      options:
+        - 3.5
+        - 3.6
+        - 3.7
+        - 3.8
+        - 3.9
+        - other
+    validations:
+      required: False
   - type: textarea
     id: logs
     attributes:
