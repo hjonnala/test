@@ -39,11 +39,12 @@ body:
         - support
         - docs-feature
         - docs-bug
-        - others
+        - other
   - type: dropdown
     id: Operating-System
     attributes:
       label: What operating system you are working on?
+      description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
         - Windows
@@ -51,11 +52,11 @@ body:
         - Linux
         - Ubuntu
         - Mac OS
-        - Other
   - type: dropdown
     id: Hardware
     attributes:
       label: What coral device you are using?
+      description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
         - Dev Board
@@ -73,15 +74,16 @@ body:
     id: External-Hardware
     attributes:
       label: Any other devices you are using?
+      description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
         - Raspberrypi 3
         - Rapsberrypi 4
-        - other
   - type: dropdown
     id: version
     attributes:
       label: Please select the python version applicable
+      description: If option not avaialble, please specify in what happend section!
       options:
         - 3.5
         - 3.6
