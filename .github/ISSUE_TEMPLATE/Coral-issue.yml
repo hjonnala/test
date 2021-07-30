@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Coral Issue Template
+description: Use this template to create a issue
+title: " "
 labels: [bug, triage]
 assignees:
-  - octocat
+  - hjonnala
 body:
   - type: markdown
     attributes:
