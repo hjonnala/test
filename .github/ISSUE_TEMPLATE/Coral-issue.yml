@@ -30,7 +30,7 @@ body:
   - type: dropdown
     id: issue-type
     attributes:
-      label: What type of issue you are facing?
+      label: Which type of issue are you facing?
       multiple: true
       options:
         - bug
