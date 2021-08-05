@@ -10,8 +10,7 @@ assignees: 'hjonnala, manoj7410'
 **Describe the Issue**
 A clear and concise description of what the issue is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Steps to reproduce the Issue:**
 
 
 **please complete the following information:**
