@@ -13,7 +13,7 @@ A clear and concise description of what the issue is.
 **Steps to reproduce the Issue:**
 
 
-**please complete the following information:**
+**Please complete the following information:**
  - System Information:
  - Coral device:
  - Python version: 
