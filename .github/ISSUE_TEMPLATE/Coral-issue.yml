@@ -73,7 +73,7 @@ body:
   - type: dropdown
     id: External-Hardware
     attributes:
-      label: Any there any other devices are you using?
+      label: Are there any other devices are you using?
       description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
