@@ -6,6 +6,11 @@ labels: ''
 assignees: 'hjonnala, manoj7410'
 
 ---
+**Please complete the following information:**
+ - System Information:
+ - Coral device:
+ - Python version: 
+
 
 **Describe the Issue**
 A clear and concise description of what the issue is.
@@ -13,7 +18,4 @@ A clear and concise description of what the issue is.
 **Steps to reproduce the Issue:**
 
 
-**Please complete the following information:**
- - System Information:
- - Coral device:
- - Python version: 
+
