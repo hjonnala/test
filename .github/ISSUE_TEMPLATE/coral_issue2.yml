@@ -43,7 +43,7 @@ body:
   - type: dropdown
     id: Operating-System
     attributes:
-      label: Which operating system  are you working on?
+      label: operating system
       description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
@@ -55,7 +55,7 @@ body:
   - type: dropdown
     id: Hardware
     attributes:
-      label: Which coral device are you using?
+      label: coral device
       description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
@@ -73,7 +73,7 @@ body:
   - type: dropdown
     id: External-Hardware
     attributes:
-      label: Any there any other devices are you using?
+      label: other devices
       description: If option not avaialble, please specify in what happend section!
       multiple: true
       options:
@@ -82,14 +82,15 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Please select the python version applicable
+      label: Programming Language
       description: If option not avaialble, please specify in what happend section!
       options:
-        - 3.5
-        - 3.6
-        - 3.7
-        - 3.8
-        - 3.9
+        - C++
+        - python 3.5
+        - python 3.6
+        - python 3.7
+        - python 3.8
+        - python 3.9
         - other
     validations:
       required: False
