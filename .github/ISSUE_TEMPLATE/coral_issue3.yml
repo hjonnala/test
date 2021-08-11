@@ -40,18 +40,18 @@ body:
         - docs-feature
         - docs-bug
         - other
-    - type: dropdown
-      id: Operating-System
-      attributes:
-        label: operating system
-        description: If option not avaialble, please specify in what happend section!
-        multiple: true
-        options:
-          - Windows
-          - Mendel OS
-          - Linux
-          - Ubuntu
-          - Mac OS
+  - type: dropdown
+    id: Operating-System
+    attributes:
+      label: operating system
+      description: If option not avaialble, please specify in what happend section!
+      multiple: true
+      options:
+        - Windows
+        - Mendel OS
+        - Linux
+        - Ubuntu
+        - Mac OS
   - type: dropdown
     id: Hardware
     attributes:
