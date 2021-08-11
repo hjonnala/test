@@ -40,15 +40,15 @@ body:
         - docs-feature
         - docs-bug
         - other
-      label: operating system
-      description: If option not avaialble, please specify in what happend section!
-      multiple: true
-      options:
-        - Windows
-        - Mendel OS
-        - Linux
-        - Ubuntu
-        - Mac OS
+        label: operating system
+        description: If option not avaialble, please specify in what happend section!
+        multiple: true
+        options:
+          - Windows
+          - Mendel OS
+          - Linux
+          - Ubuntu
+          - Mac OS
   - type: dropdown
     id: Operating-System
     attributes:
