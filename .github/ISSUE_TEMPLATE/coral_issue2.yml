@@ -40,7 +40,7 @@ body:
         - docs-feature
         - docs-bug
         - other
-- type: dropdown
+  - type: dropdown
     id: Operating-System
     attributes:
       label: operating system
