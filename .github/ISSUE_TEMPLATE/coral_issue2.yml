@@ -27,7 +27,6 @@ body:
 #       value: "A bug happened!"
     validations:
       required: true
-```
   - type: dropdown
     id: issue-type
     attributes:
@@ -41,7 +40,6 @@ body:
         - docs-feature
         - docs-bug
         - other
-```
 - type: dropdown
     id: Operating-System
     attributes:
