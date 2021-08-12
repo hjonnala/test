@@ -93,8 +93,6 @@ body:
         - Python 3.8
         - Python 3.9
         - Other
-    validations:
-      required: False
   - type: textarea
     id: logs
     attributes:
