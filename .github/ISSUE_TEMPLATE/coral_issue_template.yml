@@ -48,7 +48,7 @@ body:
       description: What OS are you seeing the issue in? If you don't see your OS listed, please provide more details in the "Description" section above.
       multiple: true
       options:
-        - Windows
+        - Windows 10
         - Mendel Linux
         - Linux
         - Ubuntu
