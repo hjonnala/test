@@ -14,4 +14,4 @@ jobs:
         with:
           add-labels: "type:bug"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          ignore-if-labeled: true
+
