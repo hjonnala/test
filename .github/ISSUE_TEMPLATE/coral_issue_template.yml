@@ -49,7 +49,7 @@ body:
       multiple: true
       options:
         - Windows
-        - Mendel OS
+        - Mendel Linux
         - Linux
         - Ubuntu
         - Mac OS
