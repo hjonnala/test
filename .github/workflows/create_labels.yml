@@ -4,7 +4,7 @@ on:
     types:
       - opened
 jobs:
-  read-issue:
+  create_labels:
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -12,16 +12,9 @@ jobs:
       - name: View issue information
         run: |
           echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
-# You also can print the whole github context to the logs to view more details.
-      - name: View the github context
-        run: echo "$GITHUB_CONTEXT"
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-          
+          echo "Issue body: ${{ github.event.issue.body }}"          
       - name: Label issues
         uses: andymckay/labeler@5c59dabdfd4dd5bd9c6e6d255b01b9d764af4414
         with:
           add-labels: "type:bug"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-
